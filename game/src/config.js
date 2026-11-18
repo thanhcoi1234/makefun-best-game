@@ -44,18 +44,20 @@ export const LEVEL = { seconds: 12, max: 12 };
 export const POOL_SIZE = 64;
 
 export const PALETTE = {
-  backdrop: '#11141b',
-  sky: '#1b1f2a',
-  ground: '#2a3040',
-  player: '#4fc3f7',
-  block: '#e5534b',
-  coin: '#f2c94c',
-  panel: '#252b38',
-  text: '#eef1f5',
-  muted: '#8b93a3',
+  backdrop: '#0a0d14',
+  sky: '#101522',
+  ground: '#182030',
+  player: '#00f0ff',
+  block: '#ff0055',
+  coin: '#ffe600',
+  panel: '#151c2c',
+  text: '#ffffff',
+  muted: '#7a889b',
+  accent: '#7928ca',
 };
 
 export const FONT = 'system-ui, -apple-system, "Segoe UI", sans-serif';
 
 /** Where the best score is kept between visits (this browser only). */
-export const BEST_KEY = 'block-dodger.best';
+export const BEST_KEY = 'neon-cyber-dodger.best';
+
